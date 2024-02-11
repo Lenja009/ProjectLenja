@@ -1,7 +1,7 @@
-package ru.astomdevs.lesson2;
-//первое задание
-public class main {
-    public static void main (String[] agrs) {
+package ru.astondevs.lesson2;
+
+public class Lesson_2 {
+    public static void main(String[] agrs) {
         checkSumSign();
         printThreeWords();
         printColor();
@@ -9,17 +9,17 @@ public class main {
     }
 
     //первое задание
-    static void printThreeWords (){
+    static void printThreeWords() {
         System.out.print("Orange\n");
         System.out.println("Banana");
         System.out.println("Apple");
     }
 
     //второе задание
-    public static void checkSumSign (){
+     static void checkSumSign() {
         int a = 5;
         int b = 1;
-        if ((a+b) >= 0) {
+        if (a+b >= 0) {
             System.out.println("сумма положительная");
         } else {
             System.out.println("сумма отрицательная");
@@ -27,21 +27,21 @@ public class main {
     }
 
     //третье задание
-    static void printColor (){
+    static void printColor() {
         int value = 27;
-        if (value <= 0){
+        if (value <= 0) {
             System.out.println("Красный");
         }
-        else if (value >0 && value <= 100 ){
+        else if (value >0 && value <= 100) {
             System.out.println("Желтый");
         }
-        else if (value > 100 ){
+        else if (value > 100) {
             System.out.println("Зеленый");
         }
     }
 
     //четвертое задание
-    static void compareNumbers (){
+    static void compareNumbers() {
         int a = 5;
         int b = 10;
         if (a >= b) {
