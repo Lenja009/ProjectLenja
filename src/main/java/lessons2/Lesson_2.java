@@ -1,4 +1,4 @@
-package ru.astondevs.lesson2;
+package lessons2;
 
 public class Lesson_2 {
     public static void main(String[] agrs) {
